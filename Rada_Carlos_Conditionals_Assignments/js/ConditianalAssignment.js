@@ -38,19 +38,27 @@ Assignment Name: Conditianal Assignment
 
 //Probability
 
- var pro
+ var p1 = 5/40;
+ var p2 = 4/39;
+ var p3 = 3/38;
+ var p4 = 2/37;
+ var p5 = 1/36;
+
+ var probability = 1 /(p1 * p2 * p3 * p4 * p5);
+console.log(probability);
+
+var percentage = parseInt(prompt("Enter %"));
+ percentage = percentage * .01;
+console.log(percentage);
+
+ var ticketsNeeded = probability * percentage;
+ ticketsNeeded = Math.round(ticketsNeeded);
+ console.log(ticketsNeeded);
 
 
-
-
-
-
-
-
-
-
-
-
+ var ticketsBought =  parseInt(prompt("Enter tickets bought"));
+ var percentageWin = ticketsBought * 100 / probability;
+console.log(percentageWin);
 
  var lotteryNumbers = [];
 
