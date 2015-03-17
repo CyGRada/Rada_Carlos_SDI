@@ -54,7 +54,7 @@ Assignment Name: Day 6 for Loops
      } else if (k === 2){
          console.log("The value is two");
      }
-     
+
 
 
 
